@@ -54,7 +54,13 @@ android {
 
 dependencies {
 
+    implementation ("com.squareup.retrofit2:retrofit:2.7.2")
+    implementation ("com.squareup.retrofit2:converter-gson:2.7.2")
+    implementation ("com.squareup.okhttp3:okhttp:3.10.0")
+
+
     implementation("com.google.dagger:hilt-android:2.44")
+    implementation("androidx.tracing:tracing-perfetto-handshake:1.0.0")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
 
     implementation("androidx.core:core-ktx:1.12.0")
